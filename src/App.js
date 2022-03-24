@@ -128,6 +128,33 @@ const App = () => {
       attributes: ["efficient", "reusability", "not a taco", "beautiful"],
     },
   ])
+  const [jeremysThings, setJeremysThings] = useState([
+    {
+      name: 'Coding',
+      image: 'https://imgs.xkcd.com/comics/functional.png',
+      attributes: ['Challenging', 'Rewarding', 'Exciting', 'Beautiful'],
+    },
+    {
+      name: 'Bear (my Dog)',
+      image:
+        'https://images.unsplash.com/photo-1518644730709-0835105d9daa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80',
+      attributes: [
+        'A Good Boy',
+        'Lazy',
+        'Loves Amber More',
+        "Will Lick Someone to Death if Allowed",
+      ],
+    },
+    {
+      name: 'Video Games',
+      image: 'https://image.shutterstock.com/image-illustration/black-standard-videogame-controller-headphones-260nw-1558273910.jpg',
+      attributes: [
+        'Exciting',
+        'Stress Relief',
+        'Immersive Storytelling'
+      ]
+    }
+    ])
 
   return (
     <Routes>
