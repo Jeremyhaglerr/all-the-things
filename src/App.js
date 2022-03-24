@@ -121,11 +121,11 @@ const App = () => {
     },
   ])
 
-  const [huntersThings, setHuntersThings] = useState([
+  const [lucasThings, setLucasThings] = useState([
     {
-      name: "energy drinks",
+      name: "dumplings",
       image: "https://imgs.xkcd.com/comics/functional.png",  
-      attributes: ["efficient", "reusability", "not a taco", "beautiful"],
+      attributes: ["yum", "delicious", "comforting", "tasty"],
     },
   ])
 
@@ -147,7 +147,7 @@ const App = () => {
       />
       <Route
         path="/the-silly-things"
-        element={<SillyThings things={huntersThings} />}
+        element={<SillyThings things={lucasThings} />}
       />
     </Routes>
   )
